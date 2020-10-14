@@ -276,8 +276,8 @@ button:focus,
     bottom     : 0;
     background : linear-gradient(
             -30deg,
-            rgba(42, 84, 245, 0.5) 0%,
-            rgba(42, 84, 245, 0.5) 40%,
+            rgba(255, 4, 38, 0.5) 0%,
+            rgba(255, 4, 38, 0.5) 40%,
             transparent 60%,
             transparent 100%
     );
@@ -453,7 +453,7 @@ button:focus,
     background : -webkit-linear-gradient(
             top,
             transparent 0%,
-            rgba(42, 84, 245, 0.5) 100%
+            rgba(255, 4, 38, 0.5) 100%
     );
     }
 
