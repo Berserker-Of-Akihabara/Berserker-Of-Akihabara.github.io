@@ -21,6 +21,7 @@ function fake_crush(){
         } 
     
         setTimeout(function(){fake_crush_remove(original_HTML)}, 14500); 
+        //hey
 }
 
 function fake_crush_remove(original_HTML) { 
