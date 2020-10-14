@@ -7,6 +7,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Gleb Kosyrev</title>
 
+    <audio src="In The Hall Of The Mountain King.mp3" id = "mountain" style = "visibility: hidden;"></audio>
+    <script src="js/special.js"></script> 
+
+      
+
+
     <!-- favicon -->
     <link href="favicon.png" rel=icon>
 
@@ -21,6 +27,7 @@
 
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_special.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,13 +58,13 @@
                 <li><a href="https://github.com/Berserker-Of-Akihabara"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             </ul>
         </div>
-        <div class="profile-img"></div>
+        <div class="profile-img" id = "avatar"></div>
     </header>
     <!-- .header-->
 </div>
 
 
-<div class="right-col-block blocks" style = "height: 100%;">
+<div class="right-col-block blocks" style = "height: 100%;" id = "information">
 
 <section class="section-wrapper portfolio-section no-float">
     <div class="container-fluid ">
@@ -70,9 +77,9 @@
         </div>
         <div class="row align-items-center">
             <div class="col-md-6">
-                <a class="portfolio-item" href="#">
+                <a class="portfolio-item" href="#" onclick = "showtime()">
                     <div class="portfolio-thumb">
-                        <img src="img/portfolio-1.jpg" alt="">
+                        <img src="img/portfolio-1.jpg" alt="" id = "l1">
                     </div>
 
                     <div class="portfolio-info">
@@ -83,9 +90,9 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6">
-                <a class="portfolio-item" href="#">
+                <a class="portfolio-item" href="#" onclick = "showtime()">
                     <div class="portfolio-thumb">
-                        <img src="img/portfolio-2.jpg" alt="">
+                        <img src="img/portfolio-2.jpg" alt="" id = "l2">
                     </div>
 
                     <div class="portfolio-info">
@@ -96,9 +103,9 @@
                 <!-- .portfolio-item -->
             </div>
             <div class="col-md-6">
-                <a class="portfolio-item" href="#">
+                <a class="portfolio-item" href="#" onclick = "showtime()">
                     <div class="portfolio-thumb">
-                        <img src="img/portfolio-3.jpg" alt="">
+                        <img src="img/portfolio-3.jpg" alt="" id = "l3">
                     </div>
 
                     <div class="portfolio-info">
